@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "parcel src/get_started.html  --port 8885",
-    "build": "parcel build src/get_started.html --dist-dir docs"
+    "start": "parcel src/index.html  --port 8885",
+    "build": "parcel build src/index.html --dist-dir docs"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
