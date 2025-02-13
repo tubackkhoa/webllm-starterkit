@@ -58,8 +58,7 @@ async function chat(msg: string) {
       { role: 'user', content: msg }
     ],
     logprobs: true,
-    top_logprobs: 2,
-    max_tokens: 256
+    top_logprobs: 2
   };
 
   const asyncChunkGenerator = await engine.chat.completions.create(request);
